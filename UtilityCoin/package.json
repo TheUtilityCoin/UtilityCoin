@@ -1,0 +1,13 @@
+{
+    "name": "utilitycoin",
+    "version": "1.0.0",
+    "description": "UtilityCoin ($UTILITY) memecoin on Solana",
+    "scripts": {
+        "deploy": "node scripts/deploy.js",
+        "test": "node scripts/test.js"
+    },
+    "dependencies": {
+        "@project-serum/anchor": "^0.29.0",
+        "@solana/web3.js": "^1.95.3"
+    }
+}
